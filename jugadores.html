@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jugadores - FC Barcelona</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .jugadores-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .jugador-card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+        .jugador-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+        .jugador-overlay {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.1));
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        .jugador-overlay h3 {
+            margin: 0;
+            font-size: 1em;
+        }
+        .jugador-overlay p {
+            margin: 2px 0;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+        <header style="width: 100%;">
+  <img src="images/logos/banner-top.png" alt="Banner FC Barcelona" salt="Banner FC Barcelona" style="width: 100%; height: 180px; object-fit: cover; display: block;">
+</header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="historia.html">Historia</a>
+        <a href="jugadores.html">Jugadores</a>
+        <a href="opinion.html">Opinión</a>
+    </nav>
+    <main>
+        <h2>Porteros</h2>
+        <div class="jugadores-grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="jugador-card">
+                <img src="images/jugadores/01-Ter_Stegen-M.png" alt="Ter Stegen">
+                <div class="jugador-overlay">
+                    <h3>Marc-André ter Stegen</h3>
+                    <p>Portero - Alemania</p>
+                    <p>Partidos: 421 | Porterías a cero: 174 | Paradas: 986</p>
+                </div>
+            </div>
+            <div class="jugador-card">
+                <img src="images/jugadores/13-Inaki_Pena-M.png" alt="Iñaki Peña">
+                <div class="jugador-overlay">
+                    <h3>Iñaki Peña</h3>
+                    <p>Portero - España</p>
+                    <p>Partidos: 44 | Porterías a cero: 9 | Paradas: 88</p>
+                </div>
+            </div>
+            <div class="jugador-card">
+                <img src="images/jugadores/25-Szczesny-M.png" alt="Szczęsny">
+                <div class="jugador-overlay">
+                    <h3>Wojciech Szczęsny</h3>
+                    <p>Portero - Polonia</p>
+                    <p>Partidos: 29 | Porteríasa cero: 13 | Paradas: 65</p>
+                </div>
+            </div>
+        </div>
+        <h2>Defensas</h2>
+<div class="jugadores-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+    <div class="jugador-card">
+        <img src="images/jugadores/02-Cubarsi-M.png" alt="Cubarsí">
+        <div class="jugador-overlay">
+            <h3>Pau Cubarsí</h3>
+            <p>Defensa - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/03-Balde-M.png" alt="Balde">
+        <div class="jugador-overlay">
+            <h3>Alejandro Balde</h3>
+            <p>Defensa - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/04-Araujo-M.png" alt="Araújo">
+        <div class="jugador-overlay">
+            <h3>Ronald Araújo</h3>
+            <p>Defensa - Uruguay</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/05-Martinez-M.png" alt="Iñigo Martínez">
+        <div class="jugador-overlay">
+            <h3>Iñigo Martínez</h3>
+            <p>Defensa - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/15-Christensen-M.png" alt="Christensen">
+        <div class="jugador-overlay">
+            <h3>Andreas Christensen</h3>
+            <p>Defensa - Dinamarca</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/23-Kounde-M.png" alt="Koundé">
+        <div class="jugador-overlay">
+            <h3>Jules Koundé</h3>
+            <p>Defensa - Francia</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/24-Eric_Garcia-M.png" alt="Eric García">
+        <div class="jugador-overlay">
+            <h3>Eric García</h3>
+            <p>Defensa - España</p>
+        </div>
+    </div>
+</div>
+
+<h2>Centrocampistas</h2>
+<div class="jugadores-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+    <div class="jugador-card">
+        <img src="images/jugadores/06-Gavi-M.png" alt="Gavi">
+        <div class="jugador-overlay">
+            <h3>Gavi</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/08-Pedri-M.png" alt="Pedri">
+        <div class="jugador-overlay">
+            <h3>Pedri</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/14-Pablo_Torre-M.png" alt="Pablo Torre">
+        <div class="jugador-overlay">
+            <h3>Pablo Torre</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/16-Fermin-M.png" alt="Fermín López">
+        <div class="jugador-overlay">
+            <h3>Fermín López</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/17-Casado-M.png" alt="Marc Casadó">
+        <div class="jugador-overlay">
+            <h3>Marc Casadó</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/20-Olmo-M.png" alt="Dani Olmo">
+        <div class="jugador-overlay">
+            <h3>Dani Olmo</h3>
+            <p>Centrocampista - España</p>
+        </div>
+    </div>
+    <div class="jugador-card">
+        <img src="images/jugadores/21-De_Jong-M.png" alt="Frenkie de Jong">
+        <div class="jugador-overlay">
+            <h3>Frenkie de Jong</h3>
+            <p>Centrocampista - Países Bajos</p>
+        </div>
+    </div>
+</div>
+
+<h2>Delanteros</h2>
+<div class="jugadores-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+
+    <div class="jugador-card">
+        <img src="images/jugadores/07-Ferran_Torres-M.png" alt="Ferran Torres">
+        <div class="jugador-overlay">
+            <h3>Ferran Torres</h3>
+            <p>Delantero - España</p>
+        </div>
+    </div>
+
+    <div class="jugador-card">
+        <img src="images/jugadores/09-Lewandowski-M.png" alt="Robert Lewandowski">
+        <div class="jugador-overlay">
+            <h3>Robert Lewandowski</h3>
+            <p>Delantero - Polonia</p>
+        </div>
+    </div>
+
+    <div class="jugador-card">
+        <img src="images/jugadores/10-Ansu_Fati-M.png" alt="Ansu Fati">
+        <div class="jugador-overlay">
+            <h3>Ansu Fati</h3>
+            <p>Delantero - España</p>
+        </div>
+    </div>
+
+    <div class="jugador-card">
+        <img src="images/jugadores/11-Raphinha-M.png" alt="Raphinha">
+        <div class="jugador-overlay">
+            <h3>Raphinha</h3>
+            <p>Delantero - Brasil</p>
+        </div>
+    </div>
+
+    <div class="jugador-card">
+        <img src="images/jugadores/18-Pau_Victor-M.png" alt="Pau Víctor">
+        <div class="jugador-overlay">
+            <h3>Pau Víctor</h3>
+            <p>Delantero - España</p>
+        </div>
+    </div>
+
+    <div class="jugador-card">
+        <img src="images/jugadores/19-Lamine-M.png" alt="Lamine Yamal">
+        <div class="jugador-overlay">
+            <h3>Lamine Yamal</h3>
+            <p>Delantero - España</p>
+        </div>
+    </div>
+
+</div>
+
+
+<h2>Entrenador</h2>
+<div class="jugadores-grid" style="display: flex; justify-content: center;">
+    <div class="jugador-card" style="width: auto; box-shadow: none; text-align: center;">
+        <img src="images/jugadores/00-Hansi_Flick-M.png" 
+             alt="Hansi Flick" style="width: 550px; height: auto; object-fit: contain; border-radius: 10px;">
+        <div class="jugador-overlay" style="position: static; background: none; color: white; margin-top: 10px;">
+            <h3>Hansi Flick</h3>
+            <p>Entrenador Principal - Alemania</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    </main>
+   <footer style="margin-top: 50px; text-align: center; padding: 20px; background-color: rgba(0, 0, 0, 0.3); color: white; border-top: 1px solid rgba(255,255,255,0.2);">
+    <p>Contacto: <strong>Jaime E Machicote Pacheco</strong></p>
+    <p>Email: <a href="mailto:jmac8878@interponce.edu" style="color: #ffd700;">jmac8878@interponce.edu</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #004d98, #a50044);
+    color: white;
+}
+footer {
+    background-color: #a50044;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+nav {
+    background-color: #004d98;
+    text-align: center;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+table, th, td {
+    border: 1px solid #a50044;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+}
+form input[type="submit"] {
+    background-color: #004d98;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+form input[type="submit"]:hover {
+    background-color: #002c5f;
+}
